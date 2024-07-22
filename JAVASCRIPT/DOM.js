@@ -26,4 +26,5 @@ let idx = 1;
 for(div of divs) {
     div.innerHTML = `New Unique Text ${idx}`
     idx++;
+    
 }
