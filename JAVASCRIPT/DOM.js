@@ -27,3 +27,8 @@ for(div of divs) {
     div.innerHTML = `New Unique Text ${idx}`
     idx++;
 }
+
+
+// Notes for later
+// If you are seeing this in school
+// Learn about firstchild lastchild children Text node comment node element node
