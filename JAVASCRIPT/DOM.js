@@ -20,14 +20,32 @@
 
 // h2.innerText = h2.innerText + " From apna college students" // Concactination
 
-let divs = document.querySelectorAll(".box")
-let idx = 1;
+// let divs = document.querySelectorAll(".box")
+// let idx = 1;
 
-for(div of divs) {
-    div.innerHTML = `New Unique Text ${idx}`
-    idx++;
-}
+// for(div of divs) {
+//     div.innerHTML = `New Unique Text ${idx}`
+//     idx++;
+// }
 
+// const list = document.getElementById("list");
+// console.log(list.firstElementChild.attributes);
+// logs "First (1)"
+
+// let div = document.querySelector("div")
+// console.log(div);
+
+// let id = div.getAttribute("id")
+// console.log(id)
+
+// let name = div.getAttribute("name")
+// console.log(name)
+
+let para = document.querySelector("p")
+console.log(para.setAttribute("class","newclass"))
+
+
+// Attributes
 
 // Notes for later
 // If you are seeing this in school
