@@ -41,12 +41,55 @@
 // let name = div.getAttribute("name")
 // console.log(name)
 
-let para = document.querySelector("p")
-console.log(para.setAttribute("class","newclass"))
+
+//  CREATING A NEW CLASS
+// let para = document.querySelector("p")
+// console.log(para.setAttribute("class","newclass"))
 
 
-// Attributes
 
-// Notes for later
-// If you are seeing this in school
-// Learn about firstchild lastchild children Text node comment node element node
+// const list = document.getElementById("list");
+// const firstOfLi = list.firstElementChild;
+// console.log(firstOfLi.attributes);
+// console.log(firstOfLi.textContent);
+
+// Style
+
+// let div = document.querySelector("div")
+// div.style.backgroundColor = "Red"
+
+// Adding stuff in the end or start of a sentence
+// let newbtn = document.createElement("Button");
+// newbtn.innerText = "Click me!"
+// console.log(newbtn)
+
+// let div = document.querySelector("div")
+// div.after(newbtn)
+
+// Creating a new element and then positioning it using js
+// let newHeading = document.createElement("h1")
+// newHeading.innerHTML = "<i>Hi, I am Aryan</i>";
+
+// document.querySelector("body").prepend(newHeading);
+
+// let para = document.querySelector("p")
+// para.remove();
+
+// PRACTICE QUESTION
+// let button = document.createElement("button")
+// button.innerText = "Click me!"
+// button.style.backgroundColor = "red"
+// button.style.color = "white"
+
+// let body = document.querySelector("body")
+// body.before(button)
+
+// Q2
+// let p = document.querySelector("p")
+// p.classList.add("newclass")
+
+// let newclass = document.querySelector("newclass")
+// newclass.append("p")
+
+
+
